@@ -1,6 +1,6 @@
 const BASE_URL = 'https://restcountries.com/v3.1/name/';
 const searchFilter = new URLSearchParams({
-  fields: 'name, capital, population, flags, languages',
+  fields: 'name,capital,population,flags,languages',
 });
 
 export function fetchCountries(name) {

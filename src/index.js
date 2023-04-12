@@ -7,6 +7,8 @@ import './css/styles.css';
 
 const DEBOUNCE_DELAY = 300;
 
+let arr = [];
+
 const inputSearch = document.querySelector('#search-box');
 const listCountry = document.querySelector('.country-list');
 const infoCountry = document.querySelector('.country-info');
