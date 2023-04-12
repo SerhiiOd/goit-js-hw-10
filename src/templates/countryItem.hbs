@@ -1,20 +1,20 @@
 {{#each this}}
-  <div class="info-country-top">
-    <img src="{{flags.svg}}" alt="{{name.official}}" width="50" height="50" />
+  <div class='info-country-top'>
+    <img src='{{flags.svg}}' alt='{{name.official}}' width='50' height='50' />
     <h1 class='title-info'>{{name.official}}</h1>
   </div>
-  <ul class="list-info">
-    <li class="item-list">
+  <ul class='list-info'>
+    <li class='item-list'>
       <h2>Capital:</h2>
-      <p class="info-text">{{capital}}</p>
+      <p class='info-text'>{{capital}}</p>
     </li>
-    <li class="item-list">
+    <li class='item-list'>
       <h2>Population:</h2>
-      <p class="info-text">{{population}}</p>
+      <p class='info-text'>{{population}}</p>
     </li>
-    <li class="item-list">
+    <li class='item-list'>
       <h2>Languages:</h2>
-      <p class="info-text">{{#each languages}}{{this}}{{#unless @last}},{{/unless}}{{/each}}</p>
+      <p class='info-text'>{{#each languages}}{{this}}{{#unless @last}},{{/unless}}{{/each}}</p>
     </li>
   </ul>
 {{/each}}
